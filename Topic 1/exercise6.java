@@ -1,0 +1,14 @@
+package exercise6;
+
+import java.util.Scanner;
+
+public class exercise6{
+	
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a number for Pounds");
+		double pounds = input.nextDouble();
+		double kilograms = pounds *.454;
+		System.out.println(pounds + "is equal to" + kilograms);
+	}
+}
